@@ -1,0 +1,22 @@
+package com.SnuggleTexServer.controller;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.SnuggleTexServer.bean.Resultado;
+
+@RestController
+@RequestMapping("/snuggle")
+public class SnuggleTexController {
+	@RequestMapping(value="obtenerResultado",method=RequestMethod.GET)
+	public Resultado obtenerResultado(HttpServletRequest request)
+	{
+		Resultado resultado = new Resultado();
+		resultado.setSalida("hola Mundo");
+		
+		return resultado;
+	}
+}

@@ -1,0 +1,42 @@
+n1e1,f1,(3x-2)7=0
+n1e1,f2,x^{ab}c
+n1e1,f3,\sqrt[6]{5}
+n1e2,f1,\frac{1}{3+7}
+n1e2,f2,\frac{1}{3}+7
+n1e2,f3,(\frac{1}{3}+7)^{4}
+n1e3,f1,(x^{\frac{1}{2}}+6)y
+n1e3,f2,(x^{\frac{1}{2}}+6)^{y}
+n1e3,f3,a< b\leq (c+1)
+n1e4,f1,\sqrt{-1}=i
+n1e4,f2,i^{2}=-1
+n1e4,f3,1+2i
+n1e5,f1,f(0)=1
+n1e5,f2,f(x)=x^{3}
+n1e5,f3,f^{-1}(7)=4
+n2e1,f1,1\in \mathbb{Z}
+n2e1,f2,\mathbb{Z}\neq \emptyset
+n2e1,f3,"\left \{  1,2 \right \} \subset \mathbb{Z}"
+#n2e2,f1,\exists x\in \mathbb{Z} \colon x=2
+#n2e2,f2,\exists ! x\in \mathbb{Z} \colon x=2
+#n2e2,f3,\forall x\in \mathbb{N} \colon x>0
+#n2e3,f1,A\setminus B\neq A\cup B
+#n2e3,f2,p\vee p \leftrightarrow  p
+#n2e3,f3,p \Rightarrow p \vee r
+n2e4,f1,A\setminus B\neq A\cup B
+#n2e4,f2,p\vee p \leftrightarrow  p
+n2e4,f3,p \Rightarrow p \vee r
+n3e1,f1,\lnot \lnot p = p
+#n3e1,f2,\lim_{x \to{0} f(x)}
+#n3e1,f3,\sum_{i=2}^N x_i
+#n3e2,f1,\bigcup_{n=1}^{n=\infty}{S_n}
+#n3e2,f2,
+#n3e2,f3,
+#n3e3,f1,
+#n3e3,f2,
+#n3e3,f3,
+#n3e4,f1,
+#n3e4,f2,
+#n3e4,f3,
+#n3e5,f1,
+#n3e5,f2,
+#n3e5,f3,

@@ -1,0 +1,268 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+11pt, % The default document font size, options: 10pt, 11pt, 12pt
+oneside, % Two side (alternating margins) for binding by default, uncomment to switch to one side
+english, % ngerman for German
+doublespacing, % Single line spacing, alternatives: onehalfspacing or doublespacing
+%draft, % Uncomment to enable draft mode (no pictures, no links, overfull hboxes indicated)
+nolistspacing, % If the document is onehalfspacing or doublespacing, uncomment this to set spacing in lists to single
+%liststotoc, % Uncomment to add the list of figures/tables/etc to the table of contents
+%toctotoc, % Uncomment to add the main table of contents to t he table of contents
+parskip, % Uncomment to add space between paragraphs
+parident,
+%nohyperref, % Uncomment to not load the hyperref package
+headsepline, % Uncomment to get a line under the header
+]{MastersDoctoralThesis} % The class file specifying the document structure
+
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage{float}
+\usepackage{url}
+
+\usepackage{palatino} % Use the Palatino font by default
+
+\usepackage{tcolorbox} % Para redondear cajas
+
+\usepackage{biblatex}
+
+\usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
+\usepackage{listings}
+\usepackage{verbatim} % Quitar luego
+
+\usepackage{amsmath,amssymb}
+\setlength{\parindent}{2em}
+
+%-------------- XML LISTING SETINGS
+\usepackage{color}
+\definecolor{darkgreen}{rgb}{0,0.5,0}
+\lstdefinelanguage{XML}
+{
+  basicstyle=\ttfamily\color{darkgreen}\bfseries,
+  morestring=[b]",
+  morestring=[s]{>}{<},
+  morecomment=[s]{<?}{?>},
+  stringstyle=\color{black},
+  identifierstyle=\color{darkgreen},
+  keywordstyle=\color{cyan},
+  morekeywords={xmlns,version,type},% list your attributes here
+  showstringspaces=false
+}
+
+%----------------------------------------------------------------------------------------
+%	MARGIN SETTINGS
+%----------------------------------------------------------------------------------------
+
+\geometry{
+	paper=a4paper, % Change to letterpaper for US letter
+	inner=1.5cm, % Inner margin
+	outer=3cm, % Outer margin
+	bindingoffset=2cm, % Binding offset
+	top=1.5cm, % Top margin
+	bottom=1.5cm, % Bottom margin
+	%showframe,% show how the type block is set on the page
+}
+
+%----------------------------------------------------------------------------------------
+%	THESIS INFORMATION
+%----------------------------------------------------------------------------------------
+
+\thesistitle{Una propuesta de accesibilidad en expresiones matemáticas para la comunidad de ciegos y disminuidos visuales} % Your thesis title, this is used in the title and abstract, print it elsewhere with \ttitle
+\supervisor{Paula \textsc{Estrella}} % Your supervisor's name, this is used in the title page, print it elsewhere with \supname
+\degree{Lic. Cs. de la Computación} % Your degree name, this is used in the title page and abstract, print it elsewhere with \degreename
+\author{Luis \textsc{Thur}} % Your name, this is used in the title page and abstract, print it elsewhere with \authorname
+\addresses{} % Your address, this is not currently used anywhere in the template, print it elsewhere with \addressname
+\subject{} % Your subject area, this is not currently used anywhere in the template, print it elsewhere with \subjectname
+\keywords{} % Keywords for your thesis, this is not currently used anywhere in the template, print it elsewhere with \keywordnames
+\university{\href{http://unc.edu.ar/}{Universidad Nacional de Cordoba}} % Your university's name and URL, this is used in the title page and abstract, print it elsewhere with \univname
+\department{\href{http://unc.edu.ar/}{Universidad Nacional de Cordoba}} % Your department's name and URL, this is used in the title page and abstract, print it elsewhere with \deptname
+\group{} % Your research group's name and URL, this is used in the title page, print it elsewhere with \groupname
+\faculty{\href{http://www.famaf.unc.edu.ar}{Facultad de Matemática, Astronomía, Física y Computación}} % Your faculty's name and URL, this is used in the title page and abstract, print it elsewhere with \facname
+
+\hypersetup{pdftitle=\ttitle} % Set the PDF's title to your title
+\hypersetup{pdfauthor=\authorname} % Set the PDF's author to your name
+\hypersetup{pdfkeywords=\keywordnames} % Set the PDF's keywords to your keywords
+
+\begin{document}
+
+\frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
+
+\pagestyle{plain} % Default to the plain heading style until the thesis style is called for the body content
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage}
+\begin{center}
+{\scshape\LARGE \univname \\ \Large{\facname} \par}\vspace{0.5cm} % University name
+\textsc{\large Trabajo final de grado}\\[0.5cm] % Thesis type
+
+\HRule \\[0.4cm] % Horizontal line
+{\huge \bfseries \ttitle\par}\vspace{0.4cm} % Thesis title
+\HRule \\[0.4cm] % Horizontal line
+ 
+\begin{minipage}[t]{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Autor:}\\
+\authorname % Author name - remove the \href bracket to remove the link
+\end{flushleft}
+\end{minipage}
+\begin{minipage}[t]{0.4\textwidth}
+\begin{flushright} \large
+\emph{Supervisora:} \\
+\supname
+\end{flushright}
+\end{minipage}\\[1cm]
+{25 de noviembre de 2016}\\[0.3cm] % Date
+\includegraphics[scale=0.75]{figures/logo.jpg}\\ % University/department logo
+\href{http://creativecommons.org/licenses/by-nc-sa/2.5/ar/}{\includegraphics[scale=0.75]{figures/licencia.png}\\ %Licence logo
+{\scriptsize Una propuesta de accesibilidad en expresiones matemáticas para la comunidad de ciegos y disminuidos visuales por Luis  Thur se distribuye bajo una Licencia Creative Commons Atribución-NoComercial-SinDerivadas 2.5 Argentina.}}\\[0.3cm]
+\vfill
+\end{center}
+\end{titlepage}
+
+%----------------------------------------------------------------------------------------
+%	Lista de contenido
+%----------------------------------------------------------------------------------------
+
+\renewcommand{\contentsname}{Contenido}
+\tableofcontents % Prints the main table of contents
+
+%----------------------------------------------------------------------------------------
+%	Agradecimientos
+%----------------------------------------------------------------------------------------
+
+\begin{acknowledgements}
+
+Quisiera agradecer especialmente a mi familia, mis padres Carlos y Elba y a mis hermanos. Gracias por su amor y su apoyo incondicional, gracias por siempre apoyarme y ayudarme a ser una mejor persona. Lo que aprendo de ustedes es valiosísimo.
+
+A todas las personas que me acompañaron y me animaron a concluír mi tesis quiero expresarles mis más sinceros agradecimientos.
+
+Agradezco también a todo lo que FaMAF es. FaMAF no solo me ha dado las herramientas necesarias para ser un mejor profesional, sino que me ha dado amigos que me han acompañado todos éstos años. Agradezco a los profesores que siempre han estados dispuestos a evacuar mis dudas con la mejor predisposición.
+
+ También quiero agradecer a todos los que contribuyeron voluntariamente con mi tesis. A todas y cada de las personas que ha colaborado con la evaluación o que me ha hecho sugerencias.
+
+Quiero dar un gigante gracias a la colaboración y apoyo increíble que recibí por parte de mis directoras de tesis, Paula y Laura, me han dado el soporte las veces que lo he necesitado incluso, muchas veces, sin pedirlo.
+
+\hfill ¡Muchas gracias!
+
+\hfill Luis Thur
+
+\end{acknowledgements}
+
+%----------------------------------------------------------------------------------------
+%	ABBREVIATIONS
+%----------------------------------------------------------------------------------------
+
+%\begin{abbreviations}{ll} % Include a list of abbreviations (a table of two columns)
+
+%\textbf{LAH} & \textbf{L}ist \textbf{A}bbreviations \textbf{H}ere\\
+%\textbf{WSF} & \textbf{W}hat (it) \textbf{S}tands \textbf{F}or\\
+
+%\end{abbreviations}
+
+%----------------------------------------------------------------------------------------
+%	Capítulos
+%----------------------------------------------------------------------------------------
+
+\mainmatter % Begin numeric (1,2,3...) page numbering
+
+\pagestyle{thesis} % Return the page headers back to the "thesis" style
+
+% Include the chapters of the thesis as separate files from the Chapters folder
+% Uncomment the lines as you write the chapters
+
+\renewcommand{\chaptername}{Capítulo}
+\renewcommand{\figurename}{Figura}
+\include{Chapters/Chapter1}
+\include{Chapters/Chapter2} 
+\include{Chapters/Chapter3}
+\include{Chapters/Chapter4} 
+\include{Chapters/Chapter5}
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDICES
+%----------------------------------------------------------------------------------------
+
+\appendix % Cue to tell LaTeX that the following "chapters" are Appendices
+
+% Include the appendices of the thesis as separate files from the Appendices folder
+% Uncomment the lines as you write the Appendices
+\renewcommand\appendixname{Apéndice}
+\include{Appendices/AppendixA}
+\include{Appendices/AppendixB}
+\include{Appendices/AppendixC}
+\include{Appendices/AppendixD}
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+\renewcommand{\bibname}{Referencias}
+\begin{thebibliography}{99}
+
+\bibitem{censo}
+Censo Nacional de Población,
+Hogares y Viviendas 2010
+Instituto Nacional de Estadística y Censos, Argentina
+Disponible: \url{http://www.indec.gov.ar/ftp/cuadros/sociedad/PDLP_10_14.pdf}
+
+\bibitem{w3MathML}
+Mathematical Markup Language (MathML) Version 3.0 2nd Edition
+1998-2014 W3C (MIT, ERCIM, Keio, Beihang)
+\url{https://www.w3.org/TR/MathML3/}
+
+\bibitem{SnuggleTeX}
+SnuggleTeX (1.2.2), David McKain
+University of Edinburgh
+\url{http://www2.ph.ed.ac.uk/snuggletex/documentation/generating-content-mathml.html}
+
+\bibitem{STClient}
+SnuggleText - DEMO
+Disponible: \url{http://www2.ph.ed.ac.uk/snuggletex/UpConversionDemo}
+
+\bibitem{Relacion}
+Recurso online donde muestra la relacion entre MathML y TEX
+Disponible: \url{http://tex.stackexchange.com/questions/57717/relationship-between-mathml-and-tex}
+
+\bibitem{MathAssesor}
+The Wikipedia Math Accessor
+Leo Ferres
+University of Concepcion, Chile, 2006,
+Disponible: \url{http://www.inf.udec.cl/~josefuentes/files/pdf/MathAcc-ET.pdf}
+
+\bibitem{Templategeneration}
+Pipelines, Templates and Transformations: XML for Natural Language Generation
+Graham Wilcock
+University of Helsinki,, Finland
+Disponible: \url{http://www.ling.helsinki.fi/~gwilcock/Pubs/2001/NLPXML-01.pdf}
+
+\bibitem{tbnatural}
+Real vs. template-based natural language generation: a false opposition?
+Kees van Deemter y Emiel Krahmer,
+University of Brighton Tilburg
+Disponible: \url{http://doc.utwente.nl/65551/1/templates-squib.pdf}
+
+\bibitem{GALE}
+GALE: Part 5,  Machine Translation Evaluation
+Bonnie Dorr, Matt Snover, Nitin Madnani
+Disponible: \url{https://www.cs.cmu.edu/~alavie/papers/GALE-book-Ch5.pdf}
+
+\bibitem{Encuesta1}
+¿Cómo escribirías las formulas?
+Todos los niveles - Google Forms
+Disponible: \url{http://goo.gl/forms/vcTfWfKzBTIBSJlC3}
+
+\bibitem{SnuggleTextOverView}
+SnuggleTex - Overview and Features
+Disponible: \url{http://www2.ph.ed.ac.uk/snuggletex/documentation/overview-and-features.html}
+
+\bibitem{LIKERT}
+A technique for the measurement of attitudes. Likert, Rensis, Archives of psychology, 1932
+
+\end{thebibliography}
+%----------------------------------------------------------------------------------------
+
+\end{document}  

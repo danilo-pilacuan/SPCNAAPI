@@ -1,0 +1,27 @@
+"Timestamp","¿Cómo la escribirías? n3.e5.f1","¿Cómo la escribirías? n3.e5.f2","¿Cómo la escribirías? n3.e5.f3"
+"2015/11/30 2:07:58 PM GMT-3","Diferencial en x de e a la x es igual a e a la x","f de x es igual a x a la cuarta mas el seno de, abro parentesis, x al cuadrado, cierro parentesis, menos el logaritmo natural de x por e a la x mas 7","La derivada de f en funcion de x es igual al limite cuando h tiende a 0 de, abro parentesis, 2 x mas h, cierro parentesis.
+Siguiente renglon.
+es igual a 2x"
+"2015/12/02 12:12:47 PM GMT-3","D sobre (D por X) por (E elevado a X) es igual a E elevado a la X","F de X es igual a X elevado a cuatro mas el seno de (X al cuadrado) menos el (logaritmo neperiano de X) por (E elevado a X) mas siete  "," "
+"2016/02/29 1:04:12 PM GMT-3","la derivada respecto de x de e a la x es e a la x","f de x es igual a x a la cuarta más seno de x al cuadrado menos logaritmo natural de (x) por e a la x más 7","derivada de f de x igual al límite de 2 x más h cuando h tiende a 0 es igual a 2 x"
+"2016/02/29 1:11:43 PM GMT-3","Derivada respecto de equis de e (elevada) a la equis es igual a e (elevada) a la equis.
+
+e (elevada) a la equis, derivada respecto de equis es igual a e (elevada) a la equis.","efe de equis es igual a equis (elevada) a la cuarta más seno de equis ((elevada) al) cuadrado menos el logaritmo natural de equis multiplicado por e (elevada) a la equis, todo eso más siete.
+
+efe de equis es igual a siete más equis (elevada) a la cuarta más seno de equis ((elevada) al) cuadrado menos el logaritmo natural de equis multiplicado por e (elevada) a la equis.
+
+","Derivada primera de efe de equis es igual al límite con hache tendiendo a cero de (la suma de dos equis con hache) / (dos equis más hache). Todo eso es igual a dos equis.
+
+efe prima/primera de equis es igual al límite con hache tendiendo a cero de (la suma de dos equis con hache) / (dos equis más hache). Todo eso es igual a dos equis.
+"
+"2016/02/29 10:01:06 PM GMT-3","derivada con respecto a x de (e elevado a la x) igual a (e elevado a la x)","f de x igual a (x elevado a la cuatro) más seno de (x al cuadrado) menos ((logaritmo natural de x)  por (e elevado a la x)) más 7","f prima de x igual a límite con (h que tiende a 0) de (2 por x más h)          (igual a 2 por x)"
+"2016/03/02 5:54:29 AM GMT-3","la derivada de (e a la equis respecto de equis) es e a la equis","efe de equis es igual a; equis a la cuarta, más el seno cuadrado de equis, menos el logaritmo natural de equis por e a la equis, mas siete","efe prima de equis es igual al límite cuando hache tiende a cero de (dos equis más hache). Lo que es igual a dos equis"
+"2016/03/05 6:12:49 PM GMT-3","","","jujuju se puso complicado llegando al final, bueno che la verdad que entiendo porqué es necesario crear un programa sobre esto, tiene sentido. Buena suerte!"
+"2016/04/03 12:58:54 PM GMT-3","derivada con respecto a equis de e a la equis igual e a la equis","efe de equis igual equis a la cuarta más seno de: equis al cuadrado menos en logaritmo natural de equis, por e a la equis, más siete","derivada de efe de equis igual limite cuando hache tiene a cero de: dos equis más hache. derivada de efe de equis igual a dos equis"
+"2016/04/03 2:01:39 PM GMT-3","((La derivada de e elevado a la x) es igual a e elevado a la x)","((f de x es igual a) (x elevado a la cuarta) mas (el seno de (x elevado al cuadrado)) menos (el logaritmo natural de x, multiplicado por (e elevado a la x)) mas 7 )","((f prima de x es igual a) (el limite de (2 x mas h) cuando h tiende a 0) (y esto es igual a 2 x))"
+"2016/04/03 3:32:52 PM GMT-3","derivada de ((e) elevado a la (x)) respecto de (x) es igual a ( (e) elevado a la (x) )","f de x es igual a ((x) elevado a la (4) más ( seno de ((x) elevado a la (2) )) menos ( (logaritmo natural de (x)) por ((e) elevado a la (x))) más 7   ","f prima de x igual a (limite de h que tiende a (0) de ((2 por x) más h) igual a (dos por x)"
+"2016/04/03 3:41:09 PM GMT-3","(la derivada en (x) de ((e) a la (x))) es igual a ((e) a la (x))","((f) de (x)) es igual a (((x) a la (cuarta)) más (seno de((x) a la (2))) menos (((logaritmo natural de(x)) por ((e) a la (x))) más (7))","(la derivada de (f) en (x)) es igual al (límite cuando (h) tiende a (0) de (((2) por (x))más(h))) que es igual a ((2) por (x))"
+"2016/04/03 3:42:49 PM GMT-3","","","derivada uno f(equis) igual limite abro subindice h tiende 0 cierro subindice (dos equis mas h) igual dos equis"
+"2016/04/03 8:07:28 PM GMT-3","""(Derivada de (e elevado a la x)) es igual a (e elevado a la x)""","""(f de x) igual a ((x a la cuarta) más (sen de (x cuadrado)) menos ((logaritmo natural de x) por (e a la x)) más 7)""","""(f prima de x) es igual a (limite de ((2 por x) mas h) para (h que tiende a 0))"""
+"2016/04/03 8:38:06 PM GMT-3","derivada con respecto a x de (e a la x) es igual a (e a la x)","(f de x) es igual a (x a la cuarta más seno de (x al cuadrado) menos (logaritmo natural de x) por (e a la x) más 7)","la derivada de f de x es igual a (límite cuando h tiende a 0 de (2 x más h)) que es igual a 2 x"
+"2016/04/07 10:55:49 AM GMT-3","derivada de e a la x igual a e a la x","f de x igual a x a la cuatro mas seno de x al cuadrado menos log natural de e a la x mas 7 ","derivada de x igual a limite cuando h tiende a 0 de (2x mas h) igual a 2x"

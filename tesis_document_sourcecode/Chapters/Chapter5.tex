@@ -1,0 +1,46 @@
+\chapter{Conclusiones y discusión general}
+
+\label{Chapter5}
+
+\section{Fortalezas y limitaciones}
+TexToES es un \textbf{prototipo} o \textbf{prueba de concepto} que nos ayuda a resolver el problema de accesibilidad que planteamos en los primeros capítulos pero, sin embargo, no es una solución definitiva.
+
+Hay un amplio rango de operaciones matemáticas que TexToES no cubre. Recordemos que TexToES tiene una dependencia con un componente externo, que es SnuggleTeX. Resulta que, dada esa dependencia, TexToES manipula el CMathML devuelto por SnuggleTeX, entonces para todos los casos que SnuggleTeX no tenga una respuesta que dar TexToES no podrá traducir. A su vez, no solo heredaremos la funcionalidad de SnuggleTeX sino también sus errores.
+
+Por ejemplo, SnuggleTeX trata toda variable i como un número imaginario, lo que a primera medida parece ser correcto luego vemos que no lo es. Si queremos que trate como número imaginario la siguiente expresión
+
+$$2i + 3$$
+
+pero, sin embargo, no queremos que lo haga con los subíndices ya que en este contexto es incorrecto.
+
+$$x_i$$
+
+Por otro lado, TexToES se ha construído asumiendo que la traducción de LaTeX a Español cumple con una relación directa de uno a uno. Donde cada operacion LaTeX se corresponde con un fraseo al español. Esta es una asunción que nos ayuda a resolver el problema, pero que no es una solución completa.
+
+Si bien, podemos siempre devolver la transcripción más probable para cada operación no es correcto pensar que la transcripción final es la más probable.
+
+Por ejemplo, prestemos atención a la siguiente fórmula matemática:
+
+$$ (3x + 2) y $$
+
+Podemos ver, gracias a los resultados obtenidos de los voluntarios, que para la multiplicación la transcripción más frecuente es \$TERM\$ por \$TERM\$. Entonces TexToES procesará aquella expresión y devolverá como transcripción \textbf{\textit{((3 por X mas 2) por Y)}}, lo cual es correcto. Pero se ha descubierto que para estos patrones donde hay más de una multiplicación se tiende a decir \textbf{todo eso multiplicado por} para las multiplicaciones en la cual uno de sus operandos es una combinación de otras operaciones (resultando: \textbf{\textit{((3 por X mas 2) todo eso multiplicado por Y)}}). TexToES, con la implementación actual, no puede capturar este comportamiento.
+
+\section{Trabajo futuro}
+
+Aquí se listan los posibles lineamientos a seguir si se decidiese continuar con este proyecto.\\
+
+{\Large \textbf{Interfaz gráfica y lector}}
+
+Una arista a encarar puede ser prestarle atención al ScreenReader que se utilizará para leer ésto. Quizás se puede dejar de asumir que el usuario utilizará su preferido, y se podría extender TexToES añadiendo un sistema TTS que añada las pausas necesarias y velocidades para ayudar al usuario final a entender mejor la fórmula\\
+
+{\Large \textbf{Independencia a SnuggleTeX}}
+
+SnuggleTeX fue un producto desarrollado para alcanzar un doctorado y lleva 8 años sin mantenimiento. Quizás un posible trabajo a futuro sea desarrollar un \textbf{convertidor de LaTeX a CMathML} de los operadores más utilizados para el público que se desea apuntar. Esto ayudaría a eliminar la dependencia con esta librería, y ayudaría a mitigar errores.\\
+
+{\Large \textbf{Extender SnuggleTeX}}
+
+Si desarrollar una aplicación similar a SnuggleTeX que obtenga CMathML a partir de LaTeX no es factible, probablemente extender SnuggleTeX sea una opción. Un aporte a este producto seguramente ayudará a otros desarrolladores que se encuentren usando actualmente el producto. El lineamiento aquí es extender SnuggleTeX con los operadores que SnuggleTeX no soporta.\\
+
+{\Large\textbf{ Modelo de lenguaje}}
+
+Con un modelo de lenguaje se puede resolver el problema de capturar siempre la transcripción más probable o frecuente para una fórmula LaTeX dada. Se puede pensar en ir obteniendo las transcripciones más frecuentes basadas en un análisis de N-Gramas. Esto hará que, para el ejemplo citado arriba, si uno de los operandos de la multiplicación es extenso u obtiene una combinación de otras operaciones entonces opte por la transcripción \textbf{todo eso multiplicado por}.

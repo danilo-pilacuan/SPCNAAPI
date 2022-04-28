@@ -1,0 +1,40 @@
+"Timestamp","¿Cómo la escribirías? n2.e2.f1","¿Cómo la escribirías? n2.e2.f2","¿Cómo la escribirías? n2.e2.f3"
+"2015/12/02 11:01:41 AM GMT-3","(Existe X perteneciendo al conjunto de reales) con razón de X es igual a dos"," ","Para todo X perteneciente al conjunto de los naturales con razón de X es mayor que cero"
+"2016/02/29 12:06:55 PM GMT-3","Existe equis que pertenece a los enteros tal que equis sea igual a dos.
+
+Existe equis perteneciente a los enteros tal que equis sea igual a dos.
+
+Existe equis entera tal que equis sea igual a dos.
+","Acaso mezclaron la negación en lenguaje C y otros con notación matemática; si ese es el caso:
+
+No existe equis que pertenezca a los enteros tal que equis sea igual a dos.
+
+No existe equis perteneciente a los enteros tal que equis sea igual a dos.
+
+No existe equis entera tal que equis sea igual a dos.","Extraña comparación, los naturales excluyen el cero por lo que esto mezcla campos distintos, en teoría de tipos, compara un tipo con un rango de otro. Supongo que el ejemplo debería usar otro número, pero sigamos:
+
+Para toda equis perteneciente a los (números) naturales, tal que equis sea mayor a ...
+
+Los naturales tales que sean mayores a ...
+"
+"2016/02/29 9:44:25 PM GMT-3","existe x en conjunto Z tal que x igual a 2","Existe un único x en conjunto Z tal que x igual a 2","(Para todo x en conjunto N) x mayor que 0"
+"2016/03/02 5:35:12 AM GMT-3","existe un equis en zeta, tal que equis es igual a dos","existe un único equis en zeta, tal que equis es igual a dos","para todo equis en ene, equis es mayor que cero
+para todo equis natural, equis es mayor que cero"
+"2016/03/09 9:57:58 AM GMT-3","existe un x en los enteros tal que x es igual a 2","no existe un x en los enteros tal que x es igual a 2","para todo x en los naturales se da que x es mayor estricto que 0"
+"2016/04/03 12:41:09 PM GMT-3","existe equis perteneciente al conjunto de los números enteros tal que equis es igual a dos","existe un único equis perteneciente al conjunto de los números enteros tal que equis es igual a dos","para todo equis perteneciente al conjunto de los números naturales tal que equis es mayor que cero"
+"2016/04/03 1:23:08 PM GMT-3","Existe por lo menos un equis que pertenece al conjunto de números enteros, zeta, tal que equis es iguala  dos.
+","Existe un elemento equis que perteneces al conjunto de números enteros, zeta, tal que equis es igual a dos.","Para cualquier equis que pertenece al conjunto de números naturales, ene, decimos que equis es mayor que cero."
+"2016/04/03 2:17:26 PM GMT-3","Existe un x que pertenece al conjunto de los números enteros tal que x es igual a 2","Existe un único x que pertenece al conjunto de los números enteros tal que x es igual a 2","Para todo x que pertenece al conjunto de los números naturales se cumple  que x es mayor a 0"
+"2016/04/03 3:35:07 PM GMT-3","existe equis pertenece enteros doblepunto equis igual dos","existeunico equis pertenece enteros dobrepunto equis igual dos","todo equis pertenece enteros doblepunto equis mayor cero"
+"2016/04/03 4:47:00 PM GMT-3","existe un x perteneciente al los enteros tal que, x es igual a 2.","no existe un x perteneciente a los enteros tal que, x es igual a 2","para todo x perteneciente a los naturales, tal que, x es mayor a 0"
+"2016/04/03 5:46:03 PM GMT-3","E invertida x simbolo de pertenencia zeta dos puntos x es igual a 2
+
+existe x en los enteros tal que x es igual a 2","E invertida signo de admiracion x simbolo de pertenencia zeta dos puntos x es igual a 2
+
+existe un unico x en los numeros enteros tal que x es igual a 2","A mayuscula patas arriba x simbolo de pertenencia simbolo del conjunto de los naturales dos puntos x mayor que 0
+
+para todo x en los naturales tal que x es mayor que 0"
+"2016/04/03 7:46:43 PM GMT-3","""(Existe x en Z) tal que (x es igual a 2)""","""((Existe un único) x en Z) tal que (x es igual a 2)""","""(Para todo x en N) x es mayor a 0"""
+"2016/04/03 10:20:48 PM GMT-3","Existe un equis pertenecientes al conjunto de los números enteros tal que equis es igual a dos.","Existe factorial de equis pertenecientes al conjunto de los números enteros tal que equis es igual a dos.","Para todo equis pertenecientes a los números naturales tal que equis es menor a cero."
+"2016/04/04 6:46:51 PM GMT-3","existe x en los números enteros tal que x es igual a dos ","no existe x en los números enteros tal que x es igual a dos ","para todo x en los naturales, x es mayor que cero"
+"2016/04/10 5:56:37 PM GMT-3","existe un x en z tal que x igual a dos","no existe un x en z tal que x igual a dos","para todo x en n, x es mayor que cero"

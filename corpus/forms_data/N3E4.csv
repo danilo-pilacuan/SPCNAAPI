@@ -1,0 +1,24 @@
+"Timestamp","¿Cómo la escribirías? n3.e4.f1","¿Cómo la escribirías? n3.e4.f2","¿Cómo la escribirías? n3.e4.f3"
+"2015/11/30 2:17:07 PM GMT-3","- ","a sub uno mas punto suspensivos mas a sub n","matriz de 2 por 3 formada por los valores 1 2, 3 4, 5 6"
+"2016/02/29 1:01:57 PM GMT-3","Combinatoria de ene en ka es igual a factorial de ene dividido por el factorial de ka por el factorial de ene menos ka.
+
+Combinatoria de ene (elementos) tomados de a ka (elementos) es igual a factorial de ene dividido por el factorial de ka por el factorial de ene menos ka.
+
+Combinatoria de ... es igual al factorial de ka por el factorial de ene menos ka, todo esto dividiendo al factorial de ene.
+
+Combinatoria de ... es igual al factorial de ka por el factorial de la diferencia de ene con ka, todo esto dividiendo al factorial de ene.
+
+Combinatoria de ... es igual al factorial de ene por la inversa del factorial de ka por la inversa del factorial de la diferencia de ene con ka.
+","Suma(toria) de (los) a sub uno hasta sub ene.","Matriz de tres (filas) por dos (columnas) que tiene los siguientes valores: uno, dos, tres, cuatro, cinco y seis.
+
+Matriz de tres (filas) por dos (columnas) que tiene los siguientes valores: uno y dos, tres y cuatro, (y (finalmente)) cinco y seis.
+
+Matriz de tres (filas) por dos (columnas) con fila uno: valores uno y dos; fila dos: valores tres y cuatro; fila tres: valores cinco y seis."
+"2016/02/29 9:57:38 PM GMT-3","número combinatorio de n en k igual a ((n factorial) sobre (k factorial por (n menos k) factorial))","a sub 1 más puntos suspensivos más a sub n","matriz 3 por 2 (1 2) (3 4) (5 6)"
+"2016/03/02 5:51:20 AM GMT-3","los ene en ca son, ene factorial sobre (el producto de ca factorial por (ene menos ca) factorial)","la suma de a uno ...ta ta ta tá ... a ene",""
+"2016/04/03 12:55:53 PM GMT-3","el número combinatoria ene en ca es igual a: numerador: ene factorial, denominador: ca factorial, ene menos ca, factorial","a sub uno más, así siguiendo, más a sub ene","matriz tres por dos, fila uno: uno, dos; fila dos: tres, cuatro; fila tres: cinco, seis"
+"2016/04/03 1:58:37 PM GMT-3","( n tomados a de a k es igual a ( n factorial sobre ( k factorial multiplicado por (n menos k) factorial)))","( (a sub  1) mas (a sub 2) mas todos los (a sub i) hasta (a sub n))","(Una matriz de 3 filas por 2 columnas (la primera fila esta compuesta por 1 y 2)(la segunda fila por 3 y 4) (y la tercera fila por 5 y 6))"
+"2016/04/03 3:27:50 PM GMT-3","El numero combinatorio (n) (k) es igual a ( (n factorial) sobre ( (k factorial) por ((n menos k) factorial))","suma desde (a sub 1) hasta (a sub n)","Matriz (tres por dos) con (elementos de fila 1 ( (1) (2) )) (elementos de fila 2 ( (3) (4)) (elementos de fila 3 ((5) (6)))"
+"2016/04/03 5:07:22 PM GMT-3","n factorial sobre ( k factorial por ((n menos k) factorial))","a sub 1 mas a sub 2, sigue hasta, a sub n","la matriz de orden 2 por 3, con los valores de la primera columna, 1, 3 y 5, y los valores de la segunda columna, 2, 4 y 6."
+"2016/04/03 8:03:59 PM GMT-3","""(Combinatoria de (n en k)) igual a ((n factorial) sobre ((k factorial) por ((n menos k) factorial)))""","""(a sub 1) más (puntos suspensivos) más (a sub n)""","""(Filas de la matriz ((1, 2), (3, 4) y (5, 6)))"""
+"2016/04/03 8:39:37 PM GMT-3","(n en k) es igual a (n factorial sobre (k factorial por (n menos k) factorial))","sumatoria desde a sub 1 hasta a sub n",""

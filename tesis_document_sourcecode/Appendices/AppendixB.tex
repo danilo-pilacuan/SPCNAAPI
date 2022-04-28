@@ -1,0 +1,96 @@
+\chapter{Reglas de transcripción}
+
+\label{AppendixB}
+
+En este apéndice se listan todas las reglas de transcripción que TexToES usa para poder obtener una transcripción final.
+
+Del lado izquierdo esta la etiqueta CMathML que representa la entidad matemática mientras que del lado derecho está la transcripción.
+
+\begin{lstlisting}[basicstyle=\scriptsize]
+[constantes]
+  infinity = infinito
+  imaginaryi = I
+  integers = conjunto de los enteros
+  emptyset = conjunto vacio
+  real = el conjunto de los reales
+
+[operadores]
+#Constructores
+  list = la lista de $VAR$
+  vector = el vector compuesto por $VAR$
+  set = el conjunto de todos $VAR$ que cumplan que
+    $bvar$ sea $condition$, el conjunto de $VAR$
+  imaginary = Operacion imaginaria $VAR$
+
+#Relaciones
+  eq = $VAR$ es igual a $VAR$
+  neq = $VAR$ no es igual a $VAR$
+  gt = $VAR$ es mayor a $VAR$
+  geq = $VAR$ es mayor o igual a $VAR$
+  lt = $VAR$ es menor a $VAR$
+  leq = $VAR$ es menor o igual a $VAR$
+  equivalent = $VAR$ es equivalente a $VAR$
+  approx = $VAR$ es aproximado a $VAR$
+  factorof = $VAR$ divide a $VAR$
+
+#Operadores basicos
+  plus = $VAR$ mas $VAR$
+  minus = $VAR$ menos $VAR$, menos $VAR$
+  times = $VAR$ por $VAR$
+  divide = $VAR$ dividido $VAR$
+  power = $VAR$ elevado a la $VAR$
+  exp = e elevado a la $VAR$
+  root = raiz $degree$ de $VAR$
+
+#Calculo
+  sum = la sumatoria de $bvar$ que va desde
+    $lowlimit$ hasta $uplimit$ de $VAR$
+  product = la productoria de $bvar$ que
+    va desde $lowlimit$ hasta $uplimit$ de $VAR$
+  limit = el limite de $bvar$ que tiende
+    $lowlimit$ de $VAR$
+
+#Operadores logicos
+  not = $VAR$ negado
+  and = $VAR$ y $VAR$
+  or = $VAR$ o $VAR$
+  implies = $VAR$ implica $VAR$
+
+#Conjuntos
+  in = $VAR$ en $VAR$
+  notin = $VAR$ no esta en $VAR$
+  intersect = $VAR$ intersectado con el conjunto $VAR$
+  union = $VAR$ union $VAR$
+  setdiff = $VAR$ menos el conjunto $VAR$
+  prsubset = $VAR$ es subconjunto de $VAR$
+
+#Funciones conocidas
+  function = $VAR$ de $VAR$
+  inverse = $VAR$ inversa
+  max = maximo entre $VAR$
+  determinant = determinante de $VAR$
+  gcd = maximo comun divisor entre $VAR$ y $VAR$
+  lcm = minimo comun multiplo entre $VAR$ y $VAR$
+  factorial = $VAR$ factorial
+  ln = logaritmo natural de $VAR$
+  log = logaritmo $base$ de $VAR$
+  sin = seno de $VAR$
+  arcsin = arcoseno de $VAR$
+  cos = coseno de $VAR$
+  arccos = arcocoseno de $VAR$
+  tan = tangente de $VAR$
+  arctan = arcotangente de $VAR$
+  sinh = seno hiperbolico de $VAR$
+  arcsinh = arcoseno hiperbolico de $VAR$
+  cosh = coseno hiperbolico de $VAR$
+  arccosh = arcocoseno hiperbolico de $VAR$
+  tanh = tangente hiperbolica de $VAR$
+  arctanh = arcotangente hiperbolica de $VAR$
+  sech = secante hiperbolica de $VAR$
+  arcsech = arcosecante hiperbolica de $VAR$
+  csch = cosecante hiperbolica de $VAR$
+  arccsch = arcocosecante hiperbolica de $VAR$
+  coth = cotangente hiperbolica de $VAR$
+  arccoth = arcocotangente hiperbolica de $VAR$
+  cot = cotangente de $VAR$
+\end{lstlisting}

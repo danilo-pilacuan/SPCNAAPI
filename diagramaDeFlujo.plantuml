@@ -1,0 +1,54 @@
+@startuml
+start
+:Traducción metalenguaje multilenguas 
+a lenguaje de envio comun, estado --> ❌️;
+note right
+Se realiza la traducción de comandos ingresados en 
+lenguajes soportados a lenguaje de envío común
+end note
+:Traducción de lenguaje de envio comun 
+a expresiones de maxima, estado --> ❌️;
+note right
+Se realiza la traducción de comandos ingresados en 
+metalenguaje a lenguaje maxima para separar en expresiones
+evaluables por maxima
+end note
+:Encapsular a tex las expresiones evaluables 
+a expresiones de maxima, estado --> ❌️;
+note right
+Se realiza la envoltura de las expresiones a salida de tipo tex
+end note
+:Evaluación de expresiones en API python, estado --> ✅️;
+note right
+  se invoca a maxima para evaluar matematicamente
+  las expresiones traducidas desde el frontend
+end note
+:Devolución del ouput de maxima, estado --> ❌️;
+note right
+  se devuelve al frontend el resultado de las evaluaciones de maxima
+end note
+:Traducción del ouput de maxima hacia 
+el lenguaje de envio común, estado --> ❌️;
+note right
+  se traduce el output de maxima hacia el lenguaje de envío común
+end note
+:Traducción del ouput en lenguaje común
+hacia el metalenguaje multilenguas, estado --> ❌️;
+note right
+  se traduce desde el lenguaje de envío común a
+  el metalenguaje en la lengua escogida por el usuario
+end note
+:Traducción del metalenguaje a expresiones 
+matematicas evaluables por un 
+lector de pantalla , estado --> ❌️;
+note right
+  se invoca a mathjax para traducir el metalenguaje
+  y presentar en el frontend
+end note
+:Transformar texto de entrada en texto
+navegable por el usuario, estado --> ❌️;
+note right
+  Se formatea la entrada para ser navegable por el usuario
+end note
+stop
+@enduml

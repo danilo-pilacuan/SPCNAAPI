@@ -1,0 +1,254 @@
+[ejemplo_0]
+tex = 3x - 2 = 0
+mathml = <math><apply><eq/><apply><minus/><apply><times/><cn>3</cn><ci>x</ci></apply><cn>2</cn></apply><cn>0</cn></apply></math>
+verb = (((3 por X) menos 2) es igual a 0)
+
+[ejemplo_1]
+tex = \sin x + \ln y + \cot z
+mathml = <math><apply><plus/><apply><sin/><ci>x</ci></apply><apply><ln/><ci>y</ci></apply><apply><cot/><ci>z</ci></apply></apply></math>
+verb = ((seno de X) mas (logaritmo natural de Y) mas (cotangente de Z))
+
+[ejemplo_2]
+tex = x^a
+mathml = <math><apply><power/><ci>x</ci><ci>a</ci></apply></math>
+verb = (X elevado a la A)
+
+[ejemplo_3]
+tex = x^{ab}
+mathml = <math><apply><power/><ci>x</ci><apply><times/><ci>a</ci><ci>b</ci></apply></apply></math>
+verb = (X elevado a la (A por B))
+
+[ejemplo_4]
+tex = \frac{2f(x)-e^x}{\sin xy^2(x-2)}
+mathml = <math><apply><divide/><apply><minus/><apply><times/><cn>2</cn><apply><ci type="function">f</ci><ci>x</ci></apply></apply><apply><exp/><ci>x</ci></apply></apply><apply><sin/><apply><times/><ci>x</ci><apply><power/><ci>y</ci><cn>2</cn></apply><apply><minus/><ci>x</ci><cn>2</cn></apply></apply></apply></apply></math>
+verb = (((2 por (F de X)) menos (e elevado a la X)) dividido (seno de (X por (Y elevado a la 2) por (X menos 2))))
+
+[ejemplo_5]
+tex = \sum_{x=a}^b f(x)
+mathml = <math><apply><sum/><bvar><ci>x</ci></bvar><lowlimit><ci>a</ci></lowlimit><uplimit><ci>b</ci></uplimit><apply><ci type="function">f</ci><ci>x</ci></apply></apply></math>
+verb = (la sumatoria de X que va desde A hasta B de (F de X))
+
+[ejemplo_6]
+tex = \sum_{i=0}^100 x^i
+mathml = <math><apply><sum/><bvar><ci>i</ci></bvar><lowlimit><ci>0</ci></lowlimit><uplimit><ci>100</ci></uplimit><apply><power/><ci>x</ci><ci>I</ci></apply></apply></math>
+verb = (la sumatoria de I que va desde 0 hasta 100 de (X elevado a la I))
+
+[ejemplo_7]
+tex = a+b
+mathml = <math><apply><plus/><ci>a</ci><ci>b</ci></apply></math>
+verb = (A mas B)
+
+[ejemplo_8]
+tex = a-b
+mathml = <math><apply><minus/><ci>a</ci><ci>b</ci></apply></math>
+verb = (A menos B)
+
+[ejemplo_9]
+tex = a*b
+mathml = <math><apply><times/><ci>a</ci><ci>b</ci></apply></math>
+verb = (A por B)
+
+[ejemplo_10]
+tex = a/b
+mathml = <math><apply><divide/><ci>a</ci><ci>b</ci></apply></math>
+verb = (A dividido B)
+
+[ejemplo_11]
+tex = a=b
+mathml = <math><apply><eq/><ci>a</ci><ci>b</ci></apply></math>
+verb = (A es igual a B)
+
+[ejemplo_12]
+tex = a \neq b
+mathml = <math><apply><neq/><ci>a</ci><ci>b</ci></apply></math>
+verb = (A no es igual a B)
+
+[ejemplo_13]
+tex = a < b
+mathml = <math><apply><lt/><ci>a</ci><ci>b</ci></apply></math>
+verb = (A es menor a B)
+
+[ejemplo_14]
+tex = a \leq b
+mathml = <math><apply><leq/><ci>a</ci><ci>b</ci></apply></math>
+verb = (A es menor o igual a B)
+
+[ejemplo_15]
+tex = a^b
+mathml = <math><apply><power/><ci>a</ci><ci>b</ci></apply></math>
+verb = (A elevado a la B)
+
+[ejemplo_16]
+tex = \sqrt{5}
+mathml = <math><apply><root/><cn>5</cn></apply></math>
+verb = (raiz cuadrada de 5)
+
+[ejemplo_17]
+tex = \sqrt[6]{5}
+mathml = <math><apply><root/><degree><cn>6</cn></degree><cn>5</cn></apply></math>
+verb = (raiz 6 de 5)
+
+[ejemplo_18]
+tex = x^\frac{1}{2}
+mathml = <math><apply><power/><ci>x</ci><apply><divide/><cn>1</cn><cn>2</cn></apply></apply></math>
+verb = (X elevado a la (1 dividido 2))
+
+[ejemplo_19]
+tex = \cos (2\theta) = \cos^2 \theta - \sin^2 \theta
+mathml = <math><apply><eq/><apply><cos/><apply><times/><cn>2</cn><ci>&theta;</ci></apply></apply><apply><minus/><apply><apply><power/><cos/><cn>2</cn></apply><ci>&theta;</ci></apply><apply><apply><power/><sin/><cn>2</cn></apply><ci>&theta;</ci></apply></apply></apply></math>
+verb = ((cos de (2 por THETA)) es igual a (((cos elevado a la 2) de THETA) menos ((sin elevado a la 2) de THETA)))
+
+[ejemplo_20]
+tex = a \not\in \emptyset
+mathml = <math><apply><notin/><ci>a</ci><emptyset/></apply></math>
+verb = (A no esta en conjunto vacio)
+
+[ejemplo_21]
+tex = A \setminus B \setminus C
+mathml = <math><apply><setdiff/><apply><setdiff/><ci>A</ci><ci>B</ci></apply><ci>C</ci></apply></math>
+verb = ((A menos el conjunto B) menos el conjunto C)
+
+[ejemplo_22]
+tex = A \cap B
+mathml = <math><apply><intersect/><ci>A</ci><ci>B</ci></apply></math>
+verb = (A intersectado con el conjunto B)
+
+[ejemplo_23]
+tex = A \cup B
+mathml = <math><apply><union/><ci>A</ci><ci>B</ci></apply></math>
+verb = (A union B)
+
+[ejemplo_24]
+tex = \lnot A
+mathml = <math><apply><not/><ci>A</ci></apply></math>
+verb = (A negado)
+
+[ejemplo_25]
+tex = \lnot \lnot p = p
+mathml = <math><apply><eq/><apply><not/><apply><not/><ci>p</ci></apply></apply><ci>p</ci></apply></math>
+verb = (((P negado) negado) es igual a P)
+
+[ejemplo_26]
+tex = lim_{x\to\0} sin(x)
+mathml = <math><apply><limit/><bvar><ci>x</ci></bvar><lowlimit><cn>0</cn></lowlimit><apply><sin/><ci>x</ci></apply></apply></math>
+verb = (el limite de X que tiende 0 de (seno de X))
+
+[ejemplo_27]
+tex = A \vee B
+mathml = <math><apply><or/><ci>A</ci><ci>B</ci></apply></math>
+verb = (A o B)
+
+[ejemplo_28]
+tex = x!!
+mathml = <math><apply><factorial/><apply><factorial/><ci>x</ci></apply></apply></math>
+verb = ((X factorial) factorial)
+
+[ejemplo_29]
+tex = 1\leq x < y
+mathml = <math><apply><and/><apply><leq/><cn>1</cn><ci>x</ci></apply><apply><lt/><ci>x</ci><ci>y</ci></apply></apply></math>
+verb = ((1 es menor o igual a X) y (X es menor a Y))
+
+[ejemplo_30]
+tex = x\not=a
+mathml = <math><apply><neq/><ci>x</ci><ci>a</ci></apply></math>
+verb = (X no es igual a A)
+
+[ejemplo_31]
+tex = x\not\leq 1
+mathml = <math><apply><not/><apply><leq/><ci>x</ci><cn>1</cn></apply></apply></math>
+verb = ((X es menor o igual a 1) negado)
+
+[ejemplo_32]
+tex = x \approx 1
+mathml = <apply><approx/><ci>x</ci><cn>1</cn></apply>
+verb = (X es aproximado a 1)
+
+[ejemplo_33]
+tex = f(x)
+mathml = <math><apply><ci type="function">f</ci><ci>x</ci></apply></math>
+verb = (F de X)
+
+[ejemplo_34]
+tex = g(x)
+mathml = <math><apply><ci type="function">g</ci><ci>x</ci></apply></math>
+verb = (G de X)
+
+[ejemplo_35]
+tex = a\mid b
+mathml = <apply><factorof/><ci>a</ci><ci>b</ci></apply>
+verb = (A divide a B)
+
+[ejemplo_36]
+tex = \cos^{-1} 0
+mathml = <math><apply><arccos/><cn>0</cn></apply></math>
+verb = (arcocoseno de 0)
+
+[ejemplo_37]
+tex = \cos 0
+mathml = <math><apply><cos/><cn>0</cn></apply></math>
+verb = (coseno de 0)
+
+[ejemplo_38]
+tex = \log x
+mathml = <math><apply><log/><ci>x</ci></apply></math>
+verb = (logaritmo de X)
+
+[ejemplo_39]
+tex = \exp x
+mathml = <math><apply><exp/><ci>x</ci></apply></math>
+verb = (e elevado a la X)
+
+[ejemplo_40]
+tex = \det A
+mathml = <math><apply><determinant/><ci>A</ci></apply></math>
+verb = (determinante de A)
+
+[ejemplo_41]
+tex = \gcd(x, y)
+mathml = <math><apply><gcd/><ci>x</ci><ci>y</ci></apply></math>
+verb = (maximo comun divisor entre X y Y)
+
+[ejemplo_42]
+tex = \lcm(x, y)
+mathml = <math><apply><lcm/><ci>x</ci><ci>y</ci></apply></math>
+verb = (minimo comun multiplo entre X y Y)
+
+[ejemplo_43]
+tex = \max(1, 2, 3)
+mathml = <math><apply><max/><cn>1</cn><cn>2</cn><cn>3</cn></apply></math>
+verb = (maximo entre 1 2 3)
+
+[ejemplo_44]
+tex = \log_{10}100 = 2
+mathml = <math><apply><eq/><apply><log/><logbase><cn>10</cn></logbase><cn>100</cn></apply><cn>2</cn></apply></math>
+verb = ((logaritmo base 10 de 100) es igual a 2)
+
+[ejemplo_45]
+tex = \sqrt\sqrt{x} = \sqrt[4]{x}
+mathml = <math><apply><eq/><apply><root/><apply><root/><ci>x</ci></apply></apply><apply><root/><degree><cn>4</cn></degree><ci>x</ci></apply></apply></math>
+verb = ((raiz cuadrada de (raiz cuadrada de X)) es igual a (raiz 4 de X))
+
+[ejemplo_46]
+tex = x = \frac{-b + \sqrt {b^2-4ac}}{2a}
+mathml = <math><apply><eq/><ci>x</ci><apply><divide/><apply><plus/><apply><minus/><ci>b</ci></apply><apply><root/><apply><minus/><apply><power/><ci>b</ci><cn>2</cn></apply><apply><times/><cn>4</cn><ci>a</ci><ci>c</ci></apply></apply></apply></apply><apply><times/><cn>2</cn><ci>a</ci></apply></apply></apply></math>
+verb = (X es igual a (((menos B) mas (raiz cuadrada de ((B elevado a la 2) menos (4 por A por C)))) dividido (2 por A)))
+
+[ejemplo_47]
+tex = {x | x<5}
+mathml = <math><set><bvar><ci>x</ci></bvar><condition><apply><lt/><ci>x</ci><cn>5</cn></apply></condition><ci>x</ci></set></math>
+verb = (el conjunto de todos X que cumplan que X sea (X es menor a 5))
+
+[ejemplo_48]
+tex = \mathbb{Z} \neq \emptyset
+mathml = <math><apply><neq/><integers/><emptyset/></apply></math>
+verb = (conjunto de los enteros no es igual a conjunto vacio)
+
+[ejemplo_49]
+tex = \max(1, 2, 3, 4) = 4
+mathml = <math><apply><eq/><apply><max/><cn>1</cn><cn>2</cn><cn>3</cn><cn>4</cn></apply><cn>4</cn></apply></math>
+verb = ((maximo entre 1 2 3 4) es igual a 4)
+
+[ejemplo_50]
+tex = \prod_{x=a}^{b}f(x)
+mathml = <apply><product/><bvar><ci>x</ci></bvar><lowlimit><ci>a</ci></lowlimit><uplimit><ci>b</ci></uplimit><apply><ci type="function">f</ci><ci>x</ci></apply></apply>
+verb = (la productoria de X que va desde A hasta B de (F de X))

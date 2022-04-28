@@ -1,0 +1,31 @@
+"Timestamp","¿Cómo la escribirías? n3.e1.f1","¿Cómo la escribirías? n3.e1.f2","¿Cómo la escribirías? n3.e1.f3"
+"2015/12/02 11:55:52 AM GMT-3","doble negación de P es equivalente a P","Limite cuando X tiende a cero por (uno sobre X)"," "
+"2016/02/29 12:31:27 PM GMT-3","La negación de la negación de pe es equivalente a pe.
+
+Pe negada dos veces es pe.
+
+Doble negación de pe es pe.
+
+","El límite para equis tendiendo a cero de la inversa de equis.
+
+El límite para equis tendiendo a cero de la equis a la menos uno.
+
+El límite para equis tendiendo a cero de uno sobre equis.
+
+El límite para equis tendiendo a cero de uno dividido equis.
+
+El límite para equis tendiendo a cero de equis dividiendo a uno.","Sumatoria de equis sub i para i que va de 2 a ene.
+
+Sumatoria para i que va de 2 a ene de equis sub i.
+"
+"2016/02/29 12:58:43 PM GMT-3","no no p es equivalente a p","el límite de uno sobre equis cuando equis tiende a 0","la sumatoria de equis sub i desde i igual a 2 hasta n"
+"2016/02/29 9:48:52 PM GMT-3","no no p equivalente a p","límite de (x que tiende a 0) de (1 sobre x)","sumatoria de (i desde 2 hasta n) de (x sub i)"
+"2016/03/02 5:41:26 AM GMT-3","no no pe, equivalente a pe","el límite cuando equis tiende a cero de uno sobre equis","Sumatoria de (equis i), para i de dos hasta ene "
+"2016/04/03 12:47:59 PM GMT-3","","límite cuando equis tiende a cero de, numerador: uno, denominador: equis","sumatoria desde i igual a dos hasta i igual a ene de equis sub i"
+"2016/04/03 1:48:03 PM GMT-3","((no (no p)) es equivalente a p)","((el limite de (1 sobre x)) cuando x tiende a 0)","(((la sumatoria de los X sub i ) desde i igual a 2) hasta n)"
+"2016/04/03 3:11:09 PM GMT-3","(La negacion de (La negacion de p)) equivale a p ","(Limite de x que tiende a 0 de (1 sobre x))","Sumatoria de los (x sub i) con (i igual a (2)) hasta (n)"
+"2016/04/03 4:57:26 PM GMT-3","la doble negacion de p, equivale a p","el limite de x tendiendo a cero, de 1 sobre x","la sumatoria de 2 hasta n, de x sub i"
+"2016/04/03 4:59:32 PM GMT-3","la doble negacio de p equivale a p","el limite de x tendiendo a cero, de 1 sobre x","la sumatoria de i igual 2 hasta n, de x por i."
+"2016/04/03 7:56:48 PM GMT-3","((p negado) negado) es equivalente a p","limite cuando x tiende a cero de (1 sobre x)","sumatoria de xi con indice i de 2 a n"
+"2016/04/03 7:57:14 PM GMT-3","""(doble negación de (p) equivalente a (p))""","""(limite de ((1 sobre x) para (x que tiende a 0)))""","""(sumatoria de (x sub i) para ((i igual a 2) hasta n))"""
+"2016/04/10 6:00:55 PM GMT-3","no no p equivalente a p","el limite de x cuando tiende a cero de 1 divido x","la sumatoria de xi desde i igual 2 hasta n"
