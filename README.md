@@ -5,6 +5,7 @@ Sistema: Ubuntu 20.04 LTS
 Gestor de Dependencias: PIP3
 
 1. Instalar MAXIMA
+
    sudo apt-get install maxima
 
 2. Instalar Python2 y Python3
