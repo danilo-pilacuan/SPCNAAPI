@@ -276,6 +276,9 @@ def latexToEs(entrada):
     salida=response.json()
     cmathml=salida['salida']
 
+    print("Salida CMATHML")
+    print(cmathml)
+
     result = subprocess.run(['python2', 'module.py' ,'--cmathml',cmathml], stdout=subprocess.PIPE)
 
     respuesta=result.stdout.decode("utf-8")
@@ -410,6 +413,9 @@ def procesarLatex():
         response = requests.post(url, json = myobj)
         salida=response.json()
         cmathml=salida['salida']
+
+        print("Salida CMATHML")
+        print(cmathml)
 
         ###print(cmathml)
 
