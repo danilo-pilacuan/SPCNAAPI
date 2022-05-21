@@ -302,7 +302,8 @@ def salidaToSpeech(entrada):
         auxSalidaSpeech=re.sub(r"->.*\n","",auxSalidaSpeech)
         ###print("++++++++++++++++++++")
         ###print(auxSalidaSpeech)
-        
+        auxSalidaSpeech=auxSalidaSpeech.replace("la lista de","el valor de")
+        ###print(auxSalidaSpeech)
         salida.append(auxSalidaSpeech)
     return salida
 
@@ -380,6 +381,7 @@ def procesar():
         ###print("ListaRespuestas: ")
         ###print(listaRespuestas)
         salidaSpeech=salidaToSpeech(listaRespuestas)
+        
         respuestaJson={"entradaScript":entradaNoEcho,"salida":listaRespuestas,"entradaSpeech":echoSpeech,"salidaSpeech":salidaSpeech}
 
         #incluir speechLatex entradas y speechLatexSalidas usando procesarLatex
